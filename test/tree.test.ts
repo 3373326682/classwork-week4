@@ -99,7 +99,6 @@ describe("Tree class", () => {
                 expect(tree.getTroop()[1]).toBe(monkey2);
                 expect(tree.getTroop()[2]).toBe(monkey4);
                 expect(tree.getTroop().length).toEqual(3);
-
             });
         });
     });
@@ -124,7 +123,7 @@ describe("Tree class", () => {
             tree.getTroop().push(monkey3);
             //console.log(tree.getPairNames());
             expect(tree.getPairNames()).toEqual(
-                "Cocoa : Fluffy\nPat : Skittles\nBob : Jingles\n",
+                "Cocoa : Fluffy\nPat : Skittles\nBob : Jingles",
             );
         });
     });
