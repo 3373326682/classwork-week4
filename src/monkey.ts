@@ -20,7 +20,4 @@ export class Monkey {
         public weight: number = 0,
         public pet: Kitten = new Kitten(),
     ) {}
-
-
-  
 }
